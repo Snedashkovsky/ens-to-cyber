@@ -1,0 +1,15 @@
+google-cloud-bigquery~=3.3.5
+google-cloud-bigquery-storage~=2.16.2
+pandas~=1.1.4
+matplotlib~=3.3.4
+requests~=2.25.1
+tqdm~=4.56.0
+web3~=5.31.1
+numpy~=1.19.4
+python-dotenv~=0.17.1
+cachetools~=4.2.1
+ipython~=7.19.0
+multiprocess~=0.70.13
+content_hash~=1.1.1
+backoff~=2.2.1
+cyber_sdk~=1.0.2
