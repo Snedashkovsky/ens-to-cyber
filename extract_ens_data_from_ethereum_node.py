@@ -46,6 +46,11 @@ def exception_handler(function):
 
 @exception_handler
 def get_ens_data(name: str) -> dict:
+    """
+    Extract ENS data (resolver, owner and associated addresses, contenthash) from ethereum node by name
+    :param name: ENS name without `.eth`
+    :return: dict with resolver, owner and associated addresses, contenthash
+    """
     _w3 = Web3(HTTPProvider(ETH_URL))
     _ns = ENS.fromWeb3(_w3)
     _name = str(name) + '.eth'
